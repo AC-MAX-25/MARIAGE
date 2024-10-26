@@ -47,7 +47,7 @@ function startGame() {
                 currentMole = null;
 
                 // Check if score has reached 10
-                if (score === 10) {
+                if (score === 15) {
                     window.location.href = "congratulations.html";
                 }
             }
@@ -56,7 +56,7 @@ function startGame() {
 
     setTimeout(() => {
         clearInterval(timer);
-        if (score < 10) {
+        if (score < 15) {
             alert(`Game over! Your score is ${score}`);
         }
     }, 15000); // 15 seconds game time
