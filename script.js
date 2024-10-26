@@ -61,3 +61,4 @@ function startGame() {
         }
     }, 15000); // 15 seconds game time
 }
+
