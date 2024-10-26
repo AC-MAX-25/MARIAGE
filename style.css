@@ -25,5 +25,8 @@ h1 {
 }
 
 .hole.mole {
-    background-color: #44a;
+    background-size: cover; /* Scale the image to cover the entire hole */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
