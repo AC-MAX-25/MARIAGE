@@ -19,13 +19,13 @@ function getRandomImage() {
 function showMole() {
     if (currentMole) {
         currentMole.classList.remove('mole');
-        currentMole.style.backgroundImage = ''; // Remove the previous image
+        currentMole.style.backgroundImage = ''; // Clear the previous image
     }
 
     const hole = getRandomHole();
     const randomImage = getRandomImage();
     hole.classList.add('mole');
-    hole.style.backgroundImage = `url('${randomImage}')`; // Set a random image as background
+    hole.style.backgroundImage = `url('${randomImage}')`; // Apply a random image as the background
     currentMole = hole;
 }
 
