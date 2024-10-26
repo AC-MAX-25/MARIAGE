@@ -46,7 +46,7 @@ function startGame() {
                 currentMole.style.backgroundImage = ''; // Clear the image
                 currentMole = null;
 
-                // Check if score has reached 14
+                // Check if score has reached 10
                 if (score === 10) {
                     window.location.href = "congratulations.html";
                 }
@@ -61,8 +61,3 @@ function startGame() {
         }
     }, 15000); // 15 seconds game time
 }
-
-        }
-    }, 15000); // 15 seconds game time
-}
-
