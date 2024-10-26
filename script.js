@@ -57,7 +57,7 @@ function startGame() {
     setTimeout(() => {
         clearInterval(timer);
         if (score < 15) {
-            alert(`Game over! Your score is ${score}`);
+            alert(`${score} ! Quel score pathétique !`);
         }
     }, 15000); // 15 seconds game time
 }
