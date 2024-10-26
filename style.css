@@ -19,14 +19,11 @@ h1 {
 .hole {
     width: 100px;
     height: 100px;
-    background-color: #bbb;
+    background-color: #bbb; /* Default hole color */
     border-radius: 50%;
     position: relative;
 }
 
 .hole.mole {
-    background-size: cover; /* Scale the image to cover the entire hole */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
+    background-color: #44a; /* Blue color when mole appears */
 }
