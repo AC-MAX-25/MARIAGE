@@ -59,7 +59,7 @@ function startGame() {
         if (score < 15) {
             alert(`${score} ! Quel score pathétique !`);
         }
-    }, 15000); // 15 seconds game time
+    }, 16000); // 15 seconds game time
 }
 
 
