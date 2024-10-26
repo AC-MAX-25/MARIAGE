@@ -30,12 +30,20 @@ function startGame() {
                 document.getElementById('score').textContent = score;
                 currentMole.classList.remove('mole');
                 currentMole = null;
+
+                // Check if score has reached 14
+                if (score === 14) {
+                    window.location.href = "congratulations.html";
+                }
             }
         });
     });
 
     setTimeout(() => {
         clearInterval(timer);
-        alert(`Game over! Your score is ${score}`);
+        if (score < 14) {
+            alert(`Game over! Your score is ${score}`);
+        }
     }, 15000); // 15 seconds game time
 }
+
